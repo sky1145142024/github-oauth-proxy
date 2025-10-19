@@ -27,7 +27,7 @@ module.exports = async (req, res) => {
 
   try {
     // 替换为你的 GitHub OAuth 应用的 Client ID 和 Secret
-    const GITHUB_CLIENT_ID = '"Ov23liUHw8DobU7utxCH';
+    const GITHUB_CLIENT_ID = 'Ov23liUHw8DobU7utxCH';
     const GITHUB_CLIENT_SECRET = '0c6f30a374c03aa81efbea9994a090139c23d1be';
   
 
