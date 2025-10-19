@@ -8,7 +8,7 @@ const config = {
   appId: "1:600392139713:web:2627688a5fbba20fc5a540",
   },
   github: {
-    clientId: "你的GitHub OAuth Client ID", // 从 GitHub OAuth 应用获取
+    clientId: "Ov23liUHw8DobU7utxCH", // 从 GitHub OAuth 应用获取
     redirectUri: "https://sky1145142024.github.io/-web/login.html" // 回调URL
   }
 };
@@ -17,3 +17,4 @@ const config = {
 firebase.initializeApp(config.firebase);
 const db = firebase.firestore();
 const auth = firebase.auth();
+
