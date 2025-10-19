@@ -15,8 +15,8 @@ module.exports = async (req, res) => {
 
   try {
     // 替换为你的 GitHub OAuth 应用的 Client ID 和 Secret
-    const GITHUB_CLIENT_ID = '你的 GitHub Client ID';
-    const GITHUB_CLIENT_SECRET = '你的 GitHub Client Secret';
+    const GITHUB_CLIENT_ID = '"Ov23liUHw8DobU7utxCH';
+    const GITHUB_CLIENT_SECRET = '0c6f30a374c03aa81efbea9994a090139c23d1be';
 
     // 向 GitHub 交换 access_token
     const response = await axios.post(
