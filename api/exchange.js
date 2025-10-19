@@ -29,7 +29,7 @@ module.exports = async (req, res) => {
     // 替换为你的 GitHub OAuth 应用的 Client ID 和 Secret
     const GITHUB_CLIENT_ID = '"Ov23liUHw8DobU7utxCH';
     const GITHUB_CLIENT_SECRET = '0c6f30a374c03aa81efbea9994a090139c23d1be';
-  }
+  
 
      const response = await axios.post(
       'https://github.com/login/oauth/access_token', // 官方固定接口，必须用这个
@@ -62,7 +62,8 @@ module.exports = async (req, res) => {
     // 7. 成功获取 token，返回给前端
     return res.status(200).json({ token: access_token });
 
-  } catch (error) {
+  } 
+  catch (error) {
     // 8. 捕获请求过程中的错误（如网络问题、接口地址错误）
     console.error('Token 交换请求失败：', error.message);
     // 输出详细错误信息到 Vercel 日志（方便排查）
